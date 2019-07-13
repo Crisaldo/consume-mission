@@ -103,17 +103,19 @@ ol {
 
 /* //colors code */
 
-/* header */
-header {
-    -webkit-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
-    -moz-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
-    box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
-    background: #fff;
+body {
+    height: 100vh;
+}
+
+.background {
+    background-image: url(../images/bg.png);
 }
 
 .main-top {
-    position: relative;
-    z-index: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 /* navigation */
